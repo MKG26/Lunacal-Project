@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-shadow {
+
+  box-shadow: 4px 4px 3px 0 black;
+
+}
+
+.hr-line-shadow {
+
+  box-shadow: 4px 4px 4px 1px rgb(0, 0, 0);
+
+}
+
+.vr-line-shadow {
+
+  box-shadow: 4px 4px 4px 1px rgb(43, 43, 43);
+
+}
+
+
+
+
+.btn-top-shadow {
+
+  box-shadow: 0 -4px 5px 0 #7f7f7fd5, 6px 6px 6px 3px rgba(30, 30, 30, 0.76);
+
+}
+
+.btn-arrow {
+
+  box-shadow: 0px 0px 20px 10px #373737, -3px -2px 8px 1px #8d8d8dd5;
+}
+
+.btn-tabs {
+  box-shadow: 0px 0px 10px 30px rgba(54, 60, 68, 0.3);
+
+}
+
+.btn-second {
+  box-shadow: -15px 20px 10px 20px rgba(54, 60, 68, 0.3);
+
+}
+
+.btn-tabs-three {
+  box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.5);
+}
+
+.poppins {
+  font-family: var(--font-poppins);
+}
